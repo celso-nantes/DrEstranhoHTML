@@ -1,0 +1,61 @@
+.rotacao {
+    animation: rotate 6s ease-in-out infinite alternate;
+
+}
+
+.high {
+    animation: high 4s ease infinite alternate;
+}
+
+.destaque-4 {
+    animation: destaque 4s ease infinite alternate;
+}
+
+.destaque-6 {
+    animation: destaque 6s ease infinite alternate;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg) translate(0px, 0px) scale(1);
+    }
+
+    80% {
+        transform: rotate(360deg) translate(0px, -50px) scale(1.05);
+    }
+
+    100% {
+        transform: rotate(360deg) translate(0px, -50px) scale(1.2);
+    }
+}
+
+@keyframes high {
+    0% {
+        transform: scale(1) translate(0px, 0px);
+    }
+
+    90% {
+        filter: brightness(1.3);
+    }
+
+    100% {
+        transform: scale(1.2) translate(0px, -32px);
+        filter: brightness(1.3);
+    }
+}
+
+@keyframes destaque {
+    0% {
+        opacity: 0;
+        filter: blur(10px);
+    }
+
+    80% {
+        filter: blur(0px);
+    }
+
+    100% {
+        opacity: 1;
+        filter: blur(0px);
+    }
+}

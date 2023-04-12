@@ -1,0 +1,5 @@
+Link Para Baixar Projeto: https://github.com/tiagoluzh607/leadDrEstranho/tree/preparacaoMaterialDefinitiva
+Link Para Baixar o Projeto em qualquer etapa: https://github.com/tiagoluzh607/leadDrEstranho/commits/preparacaoMaterialDefinitiva
+Flex: https://getbootstrap.com/docs/4.0/utilities/flex/
+Bootstrap Position: https://getbootstrap.com/docs/4.0/utilities/position/
+Bootstrap Tamanhos: https://getbootstrap.com.br/docs/4.1/layout/grid/
