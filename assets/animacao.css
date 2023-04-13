@@ -31,7 +31,7 @@
 
 @keyframes high {
     0% {
-        transform: scale(1) translate(0px, 0px);
+        transform: scale(1) translate(0px, 14px);
     }
 
     90% {
